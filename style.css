@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  text-align: center;
+  top: 10%;
+}
+
+.container {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 400px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.container p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.container input[type="register"] {
+  width: 200px;
+  background-color: #fff;
+  color: #cc5505;
+  cursor: pointer;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.container input[type="submit"] {
+  width: 100% ;
+  background-color: #ff6600;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.menu {
+  position: fixed;
+  width: 1.5%;
+  height: 100%;  
+  padding: 20px;
+  background-color: black;
+}
+
+.container input {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.background {
+  position: absolute;
+  background-image: url('images/images.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  height: 100%;  
+  width: 100%;
+}
+
+.background-overlay {
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(5px);
+}
+
+.btn{
+  color: #fff;
+  position: absolute;
+}
+
+.btn [data-type="first_icon"]{
+  top: 50px;
+}
+
+.btn[data-type="second_icon"]{
+  top: 85%;
+}
+
+.txt {
+  font-size: 12px;
+  color: #fff;
+  position: absolute;
+}
+
+.txt[data-type="first_txt"] {
+  top: 28px;
+  left: 15px;
+}
+
+.txt[data-type="second_txt"] {
+  top: 86%;
+  left: 10px;
+}
+
+.field{
+  position: relative;
+  top: 25%;
+  left: 3.5%; /* Змінено з 4% на 6% */
+  width: 93.9%; /* Змінено з 100% на 94% */
+  height: 68.6%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+} 
+
+.field[type="create"]{
+  box-sizing: border-box;
+  position: absolute;
+  top: 0px;
+  left: 3.5%; /* Змінено з 4% на 6% */
+  width: 96.5%; /* Змінено з 100% на 94% */
+  height: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.welcome{
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  font-size: 48px;
+  font-family: "playfair";
+}
+
+
+.note_one {
+  width: 90%;
+  left: 10%;
+  height: 5%;
+  border: 5px solid #ff6600;
+  background-color: #612700;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.note_one p{
+  margin-top: 0%;
+  margin-left: 5%;
+  font-size: 18px;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+#my_notes {
+  margin-left: 5%;
+  font-size: 24px;
+}
+
+.note_one p {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  margin-left: 45px;
+}
